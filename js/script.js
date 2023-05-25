@@ -328,3 +328,19 @@ const observerIntersectionAnimation = () => {
 }
 
 observerIntersectionAnimation();
+
+
+/*projet*/
+
+function togglePhoto() {
+  var photoDiv = document.getElementById("photo");
+  var toggleButton = document.getElementById("toggle-button");
+
+  if (photoDiv.style.display === "none") {
+    photoDiv.style.display = "block";
+    toggleButton.textContent = "Masquer la photo";
+  } else {
+    photoDiv.style.display = "none";
+    toggleButton.textContent = "Voir la photo";
+  }
+}
