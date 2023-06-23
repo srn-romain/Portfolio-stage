@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Romain SIEURIN</title>
+    <meta name="description" content="Romain SIEURIN -stagiaire Norsys Juin 2023">
+    <link rel="shortcut icon" href="../img/favicon.ico?v=1" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex">
+            <div class="logo">
+                Romain SIEURIN
+            </div>
+            <nav class="navbar">
+                <ul class="menu list-unstyled">
+                    <li class="dropdown">
+                        <a href="../index.html">Accueil</a>
+                        <ul class="submenu">
+                            <li><a href="../index.html#about">Norsys</a></li>
+                            <li><a href="../index.html#collegue">Collègues</a></li>
+                            <li><a href="../index.html#skills">Compétences</a></li>
+                            <li><a href="../index.html#outil">Outils</a></li>
+                            <li><a href="../index.html#blog">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="projet.html">Projet CRM</a>
+                        <ul class="submenu">
+                            <li><a href="#sprint">Le Sprint</a></li>
+                            <li><a href="#DOD">D O D</a></li>
+                            <li><a href="#TestUnit">Test Unitaire</a></li>
+                            <li><a href="#Hibernate">Hibernate</a></li>
+                            <li><a href="#lexique">Lexique</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="right">
+                <ul class="socials list-unstyled">
+                    <li>
+                        <a href="https://fr-fr.facebook.com/norsys.easymakers/" target="_blank">
+                            <svg aria-hidden="true" class="icon facebook" focusable="false" data-prefix="fab"
+                                data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path fill="currentColor"
+                                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/norsys/">
+                            <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                                data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/norsys/status/1354323257738940417">
+                            <svg aria-hidden="true" class="icon twitter" focusable="false" data-prefix="fab"
+                                data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/norsysgroup/">
+                            <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab"
+                                data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <button class="burger"><span class="bar"></span></button>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="projet" class="banner_section">
+        <div class="hero__item right">
+            <div class="banner-content">
+                <h1 class="mytitle">Projet CRM</h1>
+                <p style="color: white; text-transform: uppercase; letter-spacing: 1px;">
+                    Bienvenue sur le projet CRM, une expérience à laquelle j'ai eu le privilège de participer en tant
+                    que stagiaire chez
+                    Norsys. Ce projet a été développé par l'équipe de développement de l'entreprise, et en tant que
+                    stagiaire, j'ai pu y apporter ma contribution. Lancé en février 2023, ce projet est ambitieux et
+                    prévoit encore
+                    plusieurs années de développement avant sa finalisation. Toutefois, dès juillet 2023, il sera mis à
+                    disposition des
+                    commerciaux de l'entreprise Norsys, qui en seront les utilisateurs.<br><br>
+
+                    L'objectif principal du projet est de créer une interface rapide et intuitive pour les commerciaux,
+                    où chacun
+                    dispose d'un espace numérique personnalisé. Cet espace contient la liste des comptes clients de
+                    l'entreprise.
+                    Lorsqu'un commercial sélectionne un compte client, il peut accéder à une multitude d'informations,
+                    telles que les
+                    collaborateurs travaillant avec ce client (développeurs, chefs de projet, lead dev...), les contacts
+                    associés,
+                    les services liés, les compétences de chaque collaborateur et plus encore.<br><br>
+
+                    L'interface CRM du projet vise à faciliter le travail des commerciaux en leur fournissant toutes les
+                    informations
+                    nécessaires sur les comptes clients de manière claire et organisée. Cela leur permet de mieux
+                    comprendre les
+                    relations entre l'entreprise Norsys et ses clients, ainsi que de gérer efficacement leurs
+                    interactions avec eux.
+                    Ce CRM est donc une véritable opportunité de croissance pour l'entreprise.<br><br>
+
+                    Voici quelques captures d'écran de l'interface graphique de ce projet ambitieux développé en Angular
+                    et Java. Ces
+                    images illustrent la qualité et l'esthétique de l'interface utilisateur, fruit du travail minutieux
+                    de notre équipe
+                    de développement. Bonne visite !
+                </p>
+                <a href="javascript:void(0)" class="btn main-btn" id="open-modal_bienvenue">ALL Pictures</a>
+
+                <div class="modalspe" id="modal-bienvenue">
+                    <div class="modal__contentspe">
+                        <button class="modal__closespe">&times;</button>
+
+
+
+                        <div class="carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-item active">
+                                    <img src="../img/interface CRM (1).png" alt="Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/interface CRM (2).png" alt="Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/interface CRM (3).png" alt="Image 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/interface CRM (4).png" alt="Image 4">
+                                </div>
+                            </div>
+                            <a class="carousel-prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="carousel-next" onclick="changeSlide(1)">&#10095;</a>
+                            <ul class="carousel-indicators">
+                                <li class="carousel-indicator"></li>
+                                <li class="carousel-indicator"></li>
+                                <li class="carousel-indicator"></li>
+                                <li class="carousel-indicator"></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sprint" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Le sprint</h2>
+
+                Le projet fonctionne par <span class="highlight">sprint</span>. Mais alors qu'est-ce que c'est ? Un sprint est une période de temps
+                définie dans la méthodologie de
+                développement Agile. Pendant un sprint, l'équipe de développement se concentre sur un ensemble
+                spécifique de
+                fonctionnalités ou de tâches à accomplir. Habituellement, un sprint dure entre une à quatre
+                semaines.
+                À la fin de chaque sprint, l'équipe de développement présente les fonctionnalités développées à
+                <b>Julien VIANO</b> pour validation. <b>Julien VIANO</b> est un commercial de l'entreprise qui est le client
+                référent de ce
+                projet. Cette approche itérative par sprint permet d'obtenir des retours réguliers du client tout au
+                long du processus de
+                développement et d'ajuster les fonctionnalités en fonction de ses besoins et de ses
+                attentes.<br><br>
+
+                Ci-dessous, vous trouverez un <span class="highlight">schéma</span> illustrant l'organisation des sprints :<br>
+                <img src="../img/sprint.png" alt="Votre image" class="zoom-image">
+
+                <h3 style="font-size: 2.9rem; ">Chronologie d'un print</h3>
+
+                <div class="grid">
+                    <div class="grid__item">
+                        <h3>CHAQUE JOUR DU SPRINT</h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <h4 style="color: #a6d866;">A 9h</h4>
+                                <p>Réunion dites "Daily" ou l'on fait le point sur ce qui à été fait la veille. On
+                                    programme
+                                    également ce que chacun va faire le jour même. Ce Daily permet de faire le point
+                                    avec les reste de
+                                    l'équipe, le Product Owner, l'ensembles des developpeur et le chef de projet. Voici
+                                    ci-dessous la
+                                    capture d'écran d'une réunion Daily en visioconférence
+                                    avec l'outil Teams.<br><br>
+                                    <div style="text-align: center;">
+                                        <button id="toggle-button" class="btn" onclick="togglePhoto()">
+                                          Voir la photo
+                                        </button>
+                                      </div>
+                                      <div id="photo" style="display: none;">
+                                        <img src="../img/daily.png" alt="trombinoscope" class="image-cadre">
+                                      </div>
+                                </p>
+                            </li>
+                            <li>
+                                <h4 style="color: #a6d866;">DE TEMPS EN TEMPS</h4>
+                                <p>
+                                    Dans la journée occasionnellement nous faisons du pair-programing. C'est une méthode
+                                    de travail qui consiste à codé
+                                    à plusieurs. Avec des échanges et des intéractions les erreurs sont plus rapidement
+                                    detectée. C'est toutes les 20 à 30
+                                    minutes que la personne charger de coder tourne.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__item">
+                        <h3>CHAQUE FIN DE SPRINT</h3>
+
+                        <ul class="list-unstyled">
+                            <li>
+                              <h4 style="color: #a6d866;">Rétrospective :</h4>
+                              <p>La rétrospective de sprint permet à toute l'équipe du projet de communiquer ce qui ne fonctionne pas, ce qui peut 
+                                être améliorer et ce qui fonctionne bien. Voici ci-dessous le rapport de retrospection du sprint 5 organisé le 2 
+                                juin 2023.<br>
+                                
+                                <div class="button-containerspe">
+                                    <a href="javascript:void(0)" class="btnspe" id="open-modalspe">Voir le rapport</a>
+                                </div>
+                                <div class="modalspe" id="modal-locspe">
+                                    <div class="modal__contentspe">
+                                        <button class="modal__closespe">&times;</button>
+                                        <h2 style="color: #a6d866;">Rapport de retrospection du sprint cinq du 2 juin 2023</h2>
+            
+                                        <p class="texte-aligne-gauche"><b style="font-size: 23px;">Bilan du Sprint précédent :</b><br>
+                                            -Parfois difficile de travailler à 2 en parallèle sur une US (Flavio + Jérémie)<br>
+                                            -Beaucoup de formation et d'Udemy (Romain et Hinda)<br><br>
+            
+                                            <b style="font-size: 23px;">Qualité de code :</b><br>
+                                            -Lisibilité : 4.8<br>
+                                            -Tests : 4.4<br>
+                                            -Design (refactor) : 4.4<br>
+                                            <span style="font-style: italic;">Total :</span> 4.5/5<br>
+                                            On a globalement toujours un code de très bonne qualité, à conserver ! 🙂<br><br>
+            
+                                            <b style="font-size: 23px;">Chasse au gaspillage (Muda) :</b><br>
+                                            Les gaspillages identifiés :<br>
+                                            -Interruptions<br>
+                                            -Jongler entre les projets<br>
+                                            -Attendre le pipeline pour merge<br>
+                                            -Manque d'expérience<br>
+                                            -Retour de Merge Request<br><br>
+                                            La principale cause qui empêche l'équipe d'avancer plus vite reste le manque
+                                            d'expérience.
+                                            Il faut qu'on essaie de favoriser et de mutualiser la montée en compétence.<br><br>
+            
+                                            <b style="font-size: 23px;">Actions identifiées :</b><br>
+                                            <b>Règle des 1 heure :</b> si on reste bloqué plus d'une heure sur un problème,
+                                            expliquer son problème dans le canal
+                                            Help de Teams (et ne pas oublier d'expliquer la correction une fois trouvée pour la
+                                            partager aux autres 😉). Il
+                                            est important de se forcer à expliquer le problème, même si vous ne trouvez pas de
+                                            l'aide, cela aidera forcément
+                                            quelqu'un d'autre un jour 🙂<br><br>
+                                            <b>Découper en petites tâches pour faciliter le travail en équipe :</b> les US ont été
+                                            découpées en tâche pour le
+                                            chiffrage, mais rien n'empêche de les redécouper en sous-tâches si besoin pour se les
+                                            partager<br><br>
+                                            <b>Garder une bonne communication quand on est à plusieurs sur une US, par exemple
+                                                :</b><br>
+                                            -Garder un canal Teams ouvert<br>
+                                            -Travailler en Pair Programming<br>
+                                            -Se partager les tâches (et les découper en tâches plus petites si besoin) et s'appeler
+                                            dès qu'une tâche est
+                                            terminée.<br><br>
+                                            <b>Travail en Pair Programming (ou pas) :</b><br>
+                                            -Il est bien de travailler à 2 sur les grosses US, en Pair Programming ou pas<br>
+                                            -Le but du Pair Programming n'est pas de travailler plus vite, mais d'accélérer la
+                                            montée en compétente, à voir
+                                            au cas par cas et tant qu'elle reste utile<br>
+                                            -A chacun de voir sil il veut travailler en Pair Programming (et si ça apporte quelque
+                                            chose) ou s'il vaut mieux
+                                            travailler séparément<br>
+                                            -Même si on a commencé une US en Pair Programming, rien n'empêche de faire certaines
+                                            tâches séparément, ou
+                                            ensembles, en fonction des moments et des besoins (difficulté, montée en compétence...)
+                                        </p>
+                                    </div>
+                                </div>
+
+                              </p>
+                            </li>
+                            <li>
+                              <h4 style="color: #a6d866;">Sprint Planning :</h4>
+                              <p>
+                                Permet d'organiser en équipe les tâches du prochain sprint.</p>
+                            </li>
+
+                            <li>
+                                <h4 style="color: #a6d866;">Réunion démo :</h4>
+                                <p>
+                                    Cette réunion permet de montrer l'avancement du projet au client. Comme un sprint dure peu de temps, 
+                                    cela laisse le temps au client de dire ce qui lui convient ou non et de réajuster le tir au besoin.
+                                </p>
+                              </li>
+                          </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="DOD" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">DOD</h2>
+            </div>
+            <div class="grid">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="TestUnit" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tests unitaires</h2>
+            </div>
+            <div class="grid">
+                <p style="text-align: center;">Les tests unitaires sont une pratique de développement logiciel qui
+                    consiste à écrire des tests
+                    automatisés pour vérifier le bon fonctionnement des unités individuelles de code, telles que des
+                    classes, des méthodes ou des fonctions, dans une application. Ils nous
+                    aident à détecter les erreurs ou les régressions potentielles plus tôt dans le processus de
+                    développement, ce
+                    qui facilite la détection et la résolution des problèmes. Ils vérifient si chaque unité de code
+                    répond correctement aux différentes entrées et conditions attendues, en s'assurant que le code
+                    produit les résultats escomptés. Dans le cadre de notre projet CRM, les
+                    tests unitaires sont
+                    réalisés exclusivement sur la partie backend.<br><br>
+
+                    Voici donc quatre raisons qui mettent en évidence l'importance des tests unitaires :</p>
+
+                <div class="grid-container">
+                    <div class="grid-item">Détection précoce des erreurs</div>
+                    <div class="grid-item">Facilité de maintenance</div>
+                    <div class="grid-item">Régression minimale</div>
+                    <div class="grid-item">Confiance dans le code</div>
+                </div>
+
+                <br>
+                <p>
+                    Il existe différentes approches et concepts liés aux
+                    tests unitaires, deux écoles diverge <span class="highlight">"London School"</span> et la <span
+                        class="highlight">"Detroit School"</span>,
+                    les différentes issues des tests,
+                    la relation entre
+                    les tests unitaires et les tests d'intégration, ainsi que les piliers d'un bon test unitaire.<br>
+
+                    1. London School et Detroit School :<br>
+                    - La London School met l'accent sur l'utilisation de mocks (objets simulés) pour isoler les unités
+                    de
+                    code à tester.
+                    Cela permet de tester chaque unité indépendamment des autres, facilitant ainsi la détection des
+                    erreurs.<br>
+                    - La Detroit School, quant à elle, encourage l'utilisation de véritables dépendances lors des tests
+                    unitaires. Au lieu
+                    de se reposer sur des mocks, elle favorise l'intégration réelle des dépendances, ce qui permet de
+                    valider le
+                    fonctionnement du code dans un contexte plus proche de la réalité.<br><br>
+
+                    Avantages et inconvénients :<br>
+                    - La London School offre une isolation complète des unités de code, permettant de détecter les
+                    erreurs
+                    spécifiques à
+                    chaque unité. Cependant, elle peut nécessiter plus de travail de configuration et d'entretien des
+                    mocks.<br>
+                    - La Detroit School offre une meilleure confiance dans le fonctionnement global du système en
+                    testant
+                    les véritables
+                    dépendances. Cependant, cela peut rendre les tests plus complexes et moins isolés.<br><br>
+
+                    2. Les quatre issues des tests :<br>
+                    - Vrai positif : le test signale une erreur lorsque le comportement attendu est incorrect.<br>
+                    - Faux positif : le test signale une erreur alors que le comportement est correct.<br>
+                    - Vrai négatif : le test ne signale aucune erreur lorsque le comportement est correct.<br>
+                    - Faux négatif : le test ne signale pas d'erreur alors que le comportement est incorrect.<br><br>
+
+                    3. Tests unitaires vs tests d'intégration :<br>
+                    - Les tests unitaires se concentrent sur la validation de chaque unité de code de manière
+                    isolée.<br>
+                    - Les tests d'intégration évaluent le bon fonctionnement des différentes unités de code lorsqu'elles
+                    sont combinées.<br><br>
+
+                    Pyramide des tests :<br>
+                    - Les tests unitaires sont situés à la base de la pyramide des tests, représentant la majorité des
+                    tests
+                    effectués.<br>
+                    - Les tests d'intégration se trouvent au niveau intermédiaire, validant l'intégration entre les
+                    différentes unités.<br>
+                    - Les tests d'interface utilisateur se situent au sommet de la pyramide, s'assurant du bon
+                    fonctionnement global de
+                    l'application.<br><br>
+
+                    4. Les quatre piliers d'un bon test unitaire :<br>
+                    - Lisibilité : le test doit être facile à comprendre pour les développeurs et maintenable à long
+                    terme.<br>
+                    - Isolation : le test doit être indépendant des autres tests et ne pas dépendre d'un état
+                    externe.<br>
+                    - Rapidité : le test doit s'exécuter rapidement pour permettre une intégration continue et un retour
+                    rapide en cas
+                    d'erreur.<br>
+                    - Fidélité : le test doit être fiable et reproductible, donnant des résultats cohérents à chaque
+                    exécution.<br><br>
+
+                    En mettant en pratique ces concepts et en adoptant une approche
+
+                    appropriée, les tests unitaires deviennent un outil puissant pour garantir la qualité du code,
+                    faciliter
+                    la maintenance
+                    et améliorer la confiance dans le système développé.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Hibernate" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hibernate</h2>
+            </div>
+            <div class="grid">
+                Hibernate est un framework de persistance objet pour Java qui facilite le stockage et la
+                récupération des objets Java dans une base de données relationnelle.
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="lexique" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lexique</h2>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">Peer-Programming</h3>
+                            <p style="text-align: center">
+                                La peer programming (pair programming en francais), ou programmation en binôme, est une
+                                méthode de développement logiciel où deux programmeurs
+                                travaillent ensemble sur le même ordinateur, en partageant le clavier et l'écran, pour
+                                collaborer étroitement dans
+                                la résolution de problèmes, la conception et la rédaction de code.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">Collaps</h3>
+                            <p style="text-align: center">
+                                Collaps est un élément ou un composant d'interface utilisateur qui permet de réduire ou
+                                d'expandre du contenu de manière interactive, généralement à l'aide d'un bouton ou d'un
+                                lien, pour économiser de l'espace à l'écran.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">Mob prog</h3>
+                            <p style="text-align: center">
+                                Le "mob programming" est le terme utilisé pour décrire la pratique de plusieurs
+                                programmeurs travaillant ensemble sur un même projet ou un même ensemble de
+                                fonctionnalités.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">Module</h3>
+                            <p style="text-align: center">
+                                En Angular, le terme Module désigne un ensemble de fonctionnalités d'une application,
+                                il donne essentiellement des informations angulaires sur les fonctionnalités de
+                                celle-ci
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">Framework</h3>
+                            <p style="text-align: center">
+                                Un framework est un ensemble d'outils, de bibliothèques et de conventions de
+                                développement préétablies qui
+                                facilitent la création et la gestion de logiciels. Il fournit une structure de base pour
+                                le développement
+                                d'applications en regroupant des fonctionnalités communes et en fournissant des
+                                abstractions pour simplifier les
+                                tâches récurrentes. Les frameworks permettent aux développeurs de gagner du temps en
+                                réutilisant du code existant et
+                                en suivant des bonnes pratiques établies. Ils offrent également une architecture
+                                cohérente et favorisent une
+                                approche modulaire et évolutive du développement logiciel. En résumé, un framework est
+                                un ensemble d'outils et de
+                                conventions qui accélèrent le processus de développement en fournissant une structure et
+                                des fonctionnalités prêtes
+                                à l'emploi.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">Component</h3>
+                            <p style="text-align: center">
+                                Un composant en Java Angular est une unité autonome de fonctionnalité qui combine du
+                                code, des
+                                modèles et des styles pour fournir une partie spécifique de l'interface utilisateur
+                                d'une
+                                application. Il encapsule la logique et les données liées à cette fonctionnalité,
+                                facilitant
+                                ainsi la modularité et la réutilisabilité du code.
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="grid__item">
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">M R</h3>
+                            <p style="text-align: center">
+                                Les merge requests (MR), également appelées pull requests, sont une fonctionnalité
+                                essentielle dans les systèmes de
+                                contrôle de version tels que Git. Elles permettent aux développeurs de proposer des
+                                modifications de code à une
+                                branche principale ou à un référentiel central. Les merge requests permettent une
+                                collaboration efficace en
+                                facilitant la révision et la validation des changements par les pairs. Elles offrent
+                                également un historique clair
+                                des modifications apportées au code et permettent de résoudre les conflits potentiels
+                                lors de la fusion des
+                                branches. Les merge requests sont donc un outil précieux pour assurer la qualité du code
+                                et la coordination dans les
+                                projets de développement logiciel.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">Refactor</h3>
+                            <p style="text-align: center">
+                                Le refactoring est le processus d'amélioration du code existant sans en modifier le
+                                comportement externe. Il vise à
+                                rendre le code plus lisible, maintenable et performant. Cela implique des actions telles
+                                que l'élimination des
+                                duplications, la simplification des algorithmes et l'application de bonnes pratiques de
+                                codage. Le refactoring est
+                                une pratique essentielle pour maintenir un code de qualité et faciliter son évolution.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">T D D</h3>
+
+                            <p style="text-align: center">
+                                Le TDD (Test-Driven Development), ou développement piloté par les tests, est une
+                                approche de développement logiciel
+                                dans laquelle les tests unitaires sont écrits avant même d'écrire le code de production.
+                                Le processus TDD suit
+                                généralement trois étapes : écrire un test unitaire qui échoue, écrire le code de
+                                production pour faire passer le
+                                test et enfin refactoriser le code pour l'améliorer tout en conservant les tests
+                                fonctionnels.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">Mock</h3>
+                            <p style="text-align: center">
+                                Le mocking consiste à créer des objets factices qui imitent le comportement des objets
+                                réels dans le système. Ces
+                                objets fictifs, appelés "mocks", permettent de simuler les interactions entre les
+                                différentes parties du système et
+                                de vérifier les appels aux méthodes et les retours de valeur.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+
+                        <div class="service__content">
+                            <h3 class="titre_collegue" style="text-align: center">Stubs</h3>
+                            <p style="text-align: center">
+                                Le stubbing, quant à lui, est une technique similaire mais se concentre sur le
+                                remplacement de certaines parties du
+                                système par des objets factices appelés "stubs". Les stubs sont utilisés pour fournir
+                                des réponses prédéfinies
+                                lorsqu'une méthode est appelée, sans simuler complètement le comportement du véritable
+                                objet.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <p>Romain SIEURIN</p>
+                </div>
+                <div class="grid__item">
+                    <ul class="socials list-unstyled">
+                        <li>
+                            <a href="https://www.facebook.com/people/Romain-Sieurin/pfbid0vBuCHKZG9PcDXj6nr8NR94yrUy3S6TeerxJVxZUhkEFQwTDF45QpJkAoEcBn3YH2l/"
+                                target="_blank">
+                                <svg aria-hidden="true" class="icon facebook" focusable="false" data-prefix="fab"
+                                    data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor"
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/romain-sieurin-30b7a91bb/">
+                                <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                                    data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/srn_romain">
+                                <svg aria-hidden="true" class="icon twitter" focusable="false" data-prefix="fab"
+                                    data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/norsysgroup/">
+                                <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab"
+                                    data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__item">
+                    <p>Norsys Copyright © Juin 2023 Portfolio</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
